@@ -14,7 +14,7 @@ while opcion != 9:
     "6- Listar los datos del personaje con más cantidad de técnicas.", "\n",
     "7- Listar los datos del personaje con más/menos"
         " cantidad de transformaciones", "\n",
-    "8- Salir", "\n",
+    "8- Guardar y salir", "\n",
     "===================", "\n")
     
     opcion = pedir_entero_rango(
@@ -66,6 +66,7 @@ while opcion != 9:
 
         case 8:
             print("\n")
+            guardar_datos(lista_dragon_ball)
             print("Adiós.")
             break
         
