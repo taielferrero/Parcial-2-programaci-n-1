@@ -504,8 +504,6 @@ Tecnicas:""", texto_tecnicas, """
 Cantidad de transformaciones:""", len(lista[indice_encontrado]["transformaciones"]))
         
 # punto 8:
-import json
-
 def guardar_datos(lista):
     """Guarda los datos en el archivo JSON"""
     with open("SEGUNDO PARCIAL/AD/dragon_ball.json", "w") as archivo_json:
