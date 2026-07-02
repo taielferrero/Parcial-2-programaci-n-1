@@ -1,0 +1,154 @@
+[
+    {
+        "nombre": "Julio Cesar",
+        "epoca": "Antiguedad",
+        "pais": "Roma",
+        "anio_nacimiento": -100,
+        "profesion": "Militar",
+        "logros": [
+            "Conquista de la Galia",
+            "Reforma del calendario"
+        ],
+        "eventos": [
+            "Guerra Civil Romana",
+            "Expansion de Roma",
+            "Dictadura Romana"
+        ]
+    },
+    {
+        "nombre": "Cleopatra",
+        "epoca": "Antiguedad",
+        "pais": "Egipto",
+        "anio_nacimiento": -69,
+        "profesion": "Reina",
+        "logros": [
+            "Mantener la independencia de Egipto",
+            "Alianzas con Roma"
+        ],
+        "eventos": [
+            "Guerra Civil Romana",
+            "Gobierno Ptolemaico"
+        ]
+    },
+    {
+        "nombre": "Leonardo da Vinci",
+        "epoca": "Renacimiento",
+        "pais": "Italia",
+        "anio_nacimiento": 1452,
+        "profesion": "Inventor",
+        "logros": [
+            "Mona Lisa",
+            "La Ultima Cena",
+            "Diseños de maquinas voladoras"
+        ],
+        "eventos": [
+            "Renacimiento Italiano"
+        ]
+    },
+    {
+        "nombre": "Cristobal Colon",
+        "epoca": "Edad Moderna",
+        "pais": "Italia",
+        "anio_nacimiento": 1451,
+        "profesion": "Explorador",
+        "logros": [
+            "Llegada a America"
+        ],
+        "eventos": [
+            "Descubrimiento de America",
+            "Expansion Europea"
+        ]
+    },
+    {
+        "nombre": "Napoleon Bonaparte",
+        "epoca": "Edad Contemporanea",
+        "pais": "Francia",
+        "anio_nacimiento": 1769,
+        "profesion": "Militar",
+        "logros": [
+            "Codigo Napoleonico",
+            "Reformas Administrativas",
+            "Conquistas Militares"
+        ],
+        "eventos": [
+            "Revolucion Francesa",
+            "Guerras Napoleonicas",
+            "Imperio Frances"
+        ]
+    },
+    {
+        "nombre": "Simon Bolivar",
+        "epoca": "Edad Contemporanea",
+        "pais": "Venezuela",
+        "anio_nacimiento": 1783,
+        "profesion": "Politico",
+        "logros": [
+            "Independencia de Venezuela",
+            "Independencia de Colombia",
+            "Independencia de Ecuador",
+            "Independencia de Bolivia"
+        ],
+        "eventos": [
+            "Guerras de Independencia"
+        ]
+    },
+    {
+        "nombre": "Mahatma Gandhi",
+        "epoca": "Edad Contemporanea",
+        "pais": "India",
+        "anio_nacimiento": 1869,
+        "profesion": "Activista",
+        "logros": [
+            "Independencia de India",
+            "Resistencia Pacifica"
+        ],
+        "eventos": [
+            "Independencia de India",
+            "Movimiento de No Cooperacion"
+        ]
+    },
+    {
+        "nombre": "Albert Einstein",
+        "epoca": "Edad Contemporanea",
+        "pais": "Alemania",
+        "anio_nacimiento": 1879,
+        "profesion": "Fisico",
+        "logros": [
+            "Teoria de la Relatividad",
+            "Premio Nobel"
+        ],
+        "eventos": [
+            "Desarrollo de la Fisica Moderna"
+        ]
+    },
+    {
+        "nombre": "Nelson Mandela",
+        "epoca": "Edad Contemporanea",
+        "pais": "Sudafrica",
+        "anio_nacimiento": 1918,
+        "profesion": "Politico",
+        "logros": [
+            "Fin del Apartheid",
+            "Premio Nobel de la Paz"
+        ],
+        "eventos": [
+            "Apartheid",
+            "Transicion Democratica Sudafricana"
+        ]
+    },
+    {
+        "nombre": "Martin Luther King",
+        "epoca": "Edad Contemporanea",
+        "pais": "Estados Unidos",
+        "anio_nacimiento": 1929,
+        "profesion": "Activista",
+        "logros": [
+            "Derechos Civiles",
+            "Premio Nobel de la Paz"
+        ],
+        "eventos": [
+            "Movimiento por los Derechos Civiles",
+            "Marcha sobre Washington"
+        ]
+    }
+]

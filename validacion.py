@@ -1,16 +1,20 @@
-def verificar_importacion(lista):
-    """
-    Verifica si la lista tiene datos cargados
-    """
+def verificar_importacion(lista:list)->bool:
+    '''
+    brief: Verifica si la lista tiene datos cargados.
+    recibe: una lista de diccionarios.
+    retorna: un booleano (True si la lista tiene elementos, False si está vacía).
+    '''
     return len(lista) > 0
 
-def mostrar_error():
+def mostrar_error()->None:
     '''
-    Muestra un mensaje de error
+    brief: Muestra un mensaje de error indicando que primero se deben importar los datos.
+    recibe: None.
+    retorna: None (solo imprime en pantalla).
     '''
     print("Primero debe importar los datos")
 
-def pedir_texto(mensaje: str, error: str) -> str:
+def pedir_texto(mensaje:str, error:str)->str:
     '''
     brief: valida que se ingrese un dato de tipo string y que el input no quede vacio.
     recibe: un dato de tipo string por input.
@@ -21,7 +25,7 @@ def pedir_texto(mensaje: str, error: str) -> str:
         dato = input(error)
     return dato
 
-def es_entero(dato: str) -> bool:
+def es_entero(dato:str)->bool:
     '''
     brief: valida que no se ingresen strings donde deberian ir numeros.
     recibe: un dato.
@@ -36,7 +40,7 @@ def es_entero(dato: str) -> bool:
             valido = False
     return valido
 
-def pedir_float_positivo(mensaje: str, error: str) -> float:
+def pedir_float_positivo(mensaje:str, error:str)->float:
     '''
     brief: valida que se ingrese un numero flotante mayor a cero.
     recibe: un dato de tipo float por input.
@@ -47,7 +51,7 @@ def pedir_float_positivo(mensaje: str, error: str) -> float:
         dato = input(error)
     return float(dato)
 
-def pedir_entero_rango(mensaje: str, error: str, minimo: int, maximo: int) -> int:
+def pedir_entero_rango(mensaje:str, error:str, minimo:int, maximo:int)->int:
     '''
     brief: valida que se ingrese un numero entero dentro de un rango especificado.
     recibe: un dato de tipo int y dos valores enteros que representan el minimo y maximo permitidos.
@@ -58,7 +62,7 @@ def pedir_entero_rango(mensaje: str, error: str, minimo: int, maximo: int) -> in
         dato = input(error)
     return int(dato)
 
-def pedir_opcion(mensaje: str, error: str, opciones: list) -> str:
+def pedir_opcion(mensaje:str, error:str, opciones:list)->str:
     '''
     brief: valida que el dato ingresado se encuentre dentro de una lista de opciones validas.
     recibe: un dato de tipo string y una lista con las opciones permitidas.
@@ -75,7 +79,7 @@ def pedir_opcion(mensaje: str, error: str, opciones: list) -> str:
     return dato
 
 
-def obtener_categorias_unicas(lista, clave):
+def obtener_categorias_unicas(lista:list, clave:str)->list:
     '''
     brief: Obtiene una lista con los valores unicos de una clave especifica.
     recibe: una lista de diccionarios y una clave (string).
@@ -95,7 +99,7 @@ def obtener_categorias_unicas(lista, clave):
             categorias.append(valor)
     return categorias
 
-def filtrar_por_categoria(lista, clave, valor_buscar):
+def filtrar_por_categoria(lista:list, clave:str, valor_buscar:str)->list:
     '''
     brief: Filtra una lista de diccionarios por una clave y valor especifico.
     recibe: una lista de diccionarios, una clave (string) y un valor a buscar.
